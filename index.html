@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="bikram.css" />
+  <script src="https://kit.fontawesome.com/82a444e115.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="Screenshot 2025-12-28 115411.png" class="logo" />
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfoilio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-list" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Hello Hello Hello</p>
+        <h2>K xa kta kti ho, Myself <span> Bikram Mangmu</span><br />Talking from localhost: 5173, Port: 5500
+       Web hosting kinideuna yrr kasailey 😂</h2>
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="WhatsApp Image 2026-04-07 at 14.33.56.jpeg" />
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About me</h1>
+          <p>
+            Software Engineer driven by logic,problem-solving,and continuous learning.I build full-stack applications
+            and websites using modern technologies and focus on writing clean,efficient,and maintainable code.
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab ('skills')">
+              Skills
+            </p>
+            <p class="tab-links" onclick="opentab ('experience')">
+              Experience
+            </p>
+            <p class="tab-links" onclick="opentab ('education')">Education</p>
+          </div>
+
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li>
+                <span>Frontend Development</span><br />React, HTML, CSS,
+                JavaScript
+              </li>
+              <li>
+                <span>Backend Development</span><br />Node.js, Express.js
+              </li>
+              <li><span>Database Management</span><br />MongoDB, SQL</li>
+              <li><span>Web Development</span><br />Web App Development</li>
+              <li>
+                <span>App Development</span><br />Building Android/iOS Apps
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents active-tab" id="experience">
+            <ul>
+              <li><span>Python</span><br />Intermediate</li>
+              <li><span>HTML,CSS,JavaScript</span><br />1.5 year</li>
+              <li><span>Backend Development</span><br />1.5 year</li>
+              <li>
+                <span>Database Management</span><br />MongoDB, SQL 1.5year
+              </li>
+              <li>
+                <span>Web Development</span><br />Web App Development 1.5 year
+              </li>
+              <li>
+                <span>App Development</span><br />Building Android/iOS Apps 1
+                year
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>SEE</span><br />Golden Peak High School</li>
+              <li>
+                <span>+2 Computer Science</span><br />Reliance International
+                College
+              </li>
+              <li><span>BCA</span><br />Texas International Academy </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Services Section -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-brands fa-app-store-ios"></i>
+          <h2>App Design</h2>
+          <p>
+            Application with end-to-end features, including frontend, backend,
+            and database integration.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+
+        <div>
+          <i class="fa-solid fa-earth-americas"></i>
+          <h2>Web Design</h2>
+          <p>
+            Creating visually appealing and user-friendly websites with modern
+            design principles.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Backend</h2>
+          <p>
+            backend system for an online shopping application to manage users,
+            products, orders, and payments. Designed and implemented RESTful
+            APIs to handle client requests securely and efficiently
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Section -->
+  <div id="portfoilio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="apppppp.jpg" />
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>
+              Developed a full-featured social media application that allows
+              users to connect, share content, and interact in real time.
+            </p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="musicccc.jpg" />
+          <div class="layer">
+            <h3>Music App</h3>
+            <p>
+              Developed a music streaming application that allows users to
+              browse, play, and manage music.
+            </p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="ecommm.jpg" />
+          <div class="layer">
+            <h3>Online Shopping App</h3>
+            <p>
+              Developed a full-featured online shopping (e-commerce)
+              application.With payement gateway and API integration.
+            </p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See More</a>
+    </div>
+  </div>
+  <!-- Contact Section -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact me</h1>
+          <p>
+            <i class="fa-solid fa-paper-plane"></i>Bikramunique5@gmail.com
+          </p>
+          <p><i class="fa-solid fa-phone"></i>9763788141</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=61582620024767"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/bikram_mangmu/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+          </div>
+          <a href="MyCV__.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required />
+            <input type="email" name="Email" placeholder="Your Email" required />
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>
+        Copyright © Made with <i class="fa-solid fa-heart"></i> by Bikram
+        Mangmu
+      </p>
+    </div>
+  </div>
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu() {
+      sidemenu.style.right = "0"; //transition open
+    }
+
+    function closemenu() {
+      sidemenu.style.right = "-200px"; // transition close
+    }
+  </script>
+
+  <script>
+    const scriptURL =
+      "https://script.google.com/macros/s/AKfycbzoyT_0kITq7y1UaBRkYfe6ttzI9rZjeKLHJs88YOqqoIFdT4i6OlSWdXyr5x6ENX8LbQ/exec";
+    const form = document.forms["submit-to-google-sheet"];
+    const msg = document.getElementById("msg");
+
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      fetch(scriptURL, { method: "POST", body: new FormData(form) })
+        .then((response) => {
+          msg.innerHTML = "Message sent sucessfully";
+          setTimeout(function () {
+            message.innerHTML;
+          }, 5000);
+          form.reset;
+        })
+        .catch((error) => console.error("Error!", error.message));
+    });
+  </script>
+</body>
+
+</html>
